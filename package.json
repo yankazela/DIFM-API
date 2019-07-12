@@ -1,0 +1,30 @@
+{
+  "name": "neighbourhood-places-fetcher",
+  "version": "1.0.0",
+  "description": "this service connects to the DIFM database and returns aggregated data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/nodemon/bin/nodemon.js index.js | bunyan"
+  },
+  "keywords": [
+    "google",
+    "API",
+    "Node",
+    "js"
+  ],
+  "author": "Yannick K. Kazadi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "bunyan": "^1.8.12",
+    "esm": "^3.2.22",
+    "express": "^4.16.4",
+    "mysql": "^2.17.1",
+    "node-cache": "^4.2.0",
+    "node-heremaps": "0.0.2",
+    "save": "^2.3.3",
+    "standard": "^12.0.1"
+  }
+}

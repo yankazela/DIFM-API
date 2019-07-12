@@ -1,0 +1,5 @@
+require = require('esm')(module)
+var bunyan = require('bunyan')
+global.logger = bunyan.createLogger({ name: 'DIFM' })
+global.siteProps = require('./config')
+module.exports = require('./src/server')
